@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        .main {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container {
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.4);
+
+        }
+
+        .container>div {
+            padding: 90px 100px;
+
+        }
+
+        .player1 span {
+            font-size: 50px;
+        }
+
+        .container div:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container div:nth-child(2) div {
+            border-radius: 20px;
+            width: 50%;
+
+        }
+
+        .container div:nth-child(2) div span:first-child {
+            padding: 25px 0px 10px 0px;
+        }
+
+        .container div:nth-child(2) div span:last-child {
+            padding: 10px 0px 20px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="player1" style="display: flex; flex-direction: column; text-align: center;">
+                <span>PLAYER 1</span>
+                <span style="color: #c7365f; font-size: 70px;">0</span>
+            </div>
+            <div>
+                <div
+                    style="display: flex; flex-direction: column; text-align: center; text-align: center; background-color: #c7365f">
+                    <span style="color: #fff;">CURRENT</span>
+                    <span style="color: #fff;">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="background-color: rgba(255, 255, 255, 0.35);">
+            <div class="player1" style="display: flex; flex-direction: column; text-align: center;">
+                <span>PLAYER 1</span>
+                <span style="color: #c7365f; font-size: 70px;">0</span>
+            </div>
+            <div>
+                <div
+                    style="display: flex; flex-direction: column; text-align: center; text-align: center; background-color: #c7365f">
+                    <span style="color: #fff;">CURRENT</span>
+                    <span style="color: #fff;">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
