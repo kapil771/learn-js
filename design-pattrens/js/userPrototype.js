@@ -6,7 +6,7 @@ a = {
     }
 }
 console.log(a)
-
+//////////////////////////
 let p = {
     run: () => {
         alert('run')
